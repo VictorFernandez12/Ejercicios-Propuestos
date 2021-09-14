@@ -1,0 +1,5 @@
+v1=int(input("Ingrese la velocidad del primer auto en m/s: "))
+v2=int(input("Ingrese la velocidad del segundo auto en m/s: "))
+d=int(input("Ingrese la distancia que los separa en m: "))
+te=d/(v1+v2)
+print("El tiempo de encuentro es:",te,"segundos")
